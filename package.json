@@ -1,6 +1,6 @@
 {
   "name": "chatbot-openai-with-billing-polar",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "dev": "next dev --turbo --port 3000",
     "build": "tsx lib/db/migrate && next build",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@ai-billing/core": "^0.1.2",
-    "@ai-billing/nextjs": "^0.0.3",
+    "@ai-billing/nextjs": "^0.0.4",
     "@ai-billing/openai": "^0.1.2",
     "@ai-billing/polar": "^0.1.5",
     "@ai-sdk/openai": "^3.0.0",
